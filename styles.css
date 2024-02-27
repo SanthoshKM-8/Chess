@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+#chessboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: 5px solid #769656;
+    cursor: pointer;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+}
+
+
+
+/* #chessboard {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: 5px solid #769656;
+} 
+
+.row {
+    display: flex;
+}
+
+.row:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+}  */
